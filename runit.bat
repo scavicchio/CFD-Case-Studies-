@@ -10,11 +10,11 @@ REM but instead I will put 3 for one and the rest 4
 REM so that I can save one thread for windows processes and
 REM avoid a crash! 
 echo 
+call fdsinit.bat
+start "Case 1" /d "case1" fds_local -p 2 -o 3 CFD-03-10-1.fds 
 
-start "Case 1" /d "case1" fds_local -o 3 CFD-03-10-1.fds 
+start "Case 2" /d "case2" fds_local -p 2 -o 4 CFD-03-10-2.fds 
 
-start "Case 2" /d "case2" fds_local -o 4 CFD-03-10-2.fds 
+start "Case 3" /d "case3" fds_local -p 2 -o 4 CFD-03-10-3.fds 
 
-start "Case 3" /d "case3" fds_local -o 4 CFD-03-10-3.fds 
-
-start "Case 4" /d "case4" fds_local -o 4 CFD-03-10-4.fds 
+start "Case 4" /d "case4" fds_local -p 2 -o 4 CFD-03-10-4.fds 

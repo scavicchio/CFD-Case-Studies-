@@ -11,4 +11,5 @@ REM so that I can save one thread for windows processes and
 REM avoid a crash! 
 echo 
 
+call fdsinit.bat
 fds_local -p 2 -o 2 CFD-03-10.fds
