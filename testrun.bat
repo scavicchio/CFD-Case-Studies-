@@ -11,4 +11,4 @@ REM so that I can save one thread for windows processes and
 REM avoid a crash! 
 echo 
 
-start "test" fds_local -o 1 CFD-03-10.fds
+fds_local -p 2 -o 2 CFD-03-10.fds
