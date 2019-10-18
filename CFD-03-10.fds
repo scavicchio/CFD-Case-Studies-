@@ -7,7 +7,7 @@ General parameters, solver settings, etc.
 
 set title and prefix on all output files (CHID)
 
-&TIME T_END=240.0 / 
+&TIME T_END=5 / 
 
 sets the end time of the simulation, default start time is 0
 
@@ -86,12 +86,27 @@ integrated quantities over a surface
 /&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
 /&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='H',STATISTICS='VOLUME MEAN',ID='H IN' /
 /&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='H',STATISTICS='VOLUME MEAN',ID='H OUT' /
-/&DEVC XB=40.0,40.0,0.0,2.0,0.0,2.0,QUANTITY='VOLUME FLOW',ID='QDOT' /
 
 
-point monitors
 
-&DEVC XYZ=30.0,1.0,1.0,QUANTITY='U-VELOCITY',ID='Uinst' /
+
+point monitors part a, velocity and volume flow rate to pbserve steady state
+
+need to show the velocity over time at a point
+will choose a point that is somewhat far from my expected
+seperation area and will measure all components of velocity 
+even though the U component would most likely be sufficient
+
+&DEVC XYZ=40,1,2, QUANTITY='U-VELOCITY',ID='Uinst' /
+&DEVC XYZ=40,1,2, QUANTITY='V-VELOCITY',ID='Vinst' /
+&DEVC XYZ=40,1,2, QUANTITY='W-VELOCITY',ID='Winst' /
+
+&DEVC XB=40.0,40.0,0.0,2.0,0.0,4.0, QUANTITY='VOLUME FLOW',ID='QDOT' /
+
+monitors part b, mean (time averaged) x velocity contour
+
+monitors part c, pressure loss through the geometry, k factor based on 
+velocity step (ignore friction loss at wall - make it part of the k factor)
 
 
 &TAIL /
