@@ -82,15 +82,12 @@ boundary quantities
 
 integrated quantities over a surface
 
-/&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='INLET PRESSURE' /
-/&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
-/&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='H',STATISTICS='VOLUME MEAN',ID='H IN' /
-/&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='H',STATISTICS='VOLUME MEAN',ID='H OUT' /
+&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='INLET PRESSURE' /
+&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
 
 
 
-
-point monitors part a, velocity and volume flow rate to pbserve steady state
+point monitors part a, velocity and volume flow rate to observe steady state
 
 need to show the velocity over time at a point
 will choose a point that is somewhat far from my expected
