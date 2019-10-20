@@ -1,5 +1,7 @@
 #####-----#####
+NOTES
 
+This case 2 differs from case 1 by having a coarser mech by a factor of 2 for the purpose of sensitivity analysis
 General parameters, solver settings, etc.
 
 
@@ -7,7 +9,7 @@ General parameters, solver settings, etc.
 
 set title and prefix on all output files (CHID)
 
-&TIME T_END=240.0 / 
+&TIME T_END=240 / 
 
 sets the end time of the simulation, default start time is 0
 
@@ -49,8 +51,8 @@ surface (SURF) type and thickness, default=.TRUE. sets to a default condition fo
 
 Physical geometry, obstructions, etc.
 
-&MESH IJK=160,10,40, XB=0.0,16,0.0,1,0.0,4 / 
-&MESH IJK=270,20,40, XB=16,43,0.0,2,0.0,4 / 
+&MESH IJK=80,5,20, XB=0.0,16,0.0,1,0.0,4 / 
+&MESH IJK=135,10,20, XB=16,43,0.0,2,0.0,4 / 
 
 note that the MESH is surrounded by walls of the defaul SURF type unless the mesh is touching another mesh, or a vent is specified
 
@@ -72,8 +74,8 @@ refer FDS User Guide Chapter 17
 
 slices
 
-/&SLCF QUANTITY='VELOCITY',PBY=1.0,VECTOR=.TRUE. /
-/&SLCF QUANTITY='PRESSURE',PBY=1.0 /
+&SLCF QUANTITY='VELOCITY',PBY=1.0,VECTOR=.TRUE. /
+&SLCF QUANTITY='PRESSURE',PBY=1.0 /
 
 boundary quantities
 
@@ -82,16 +84,28 @@ boundary quantities
 
 integrated quantities over a surface
 
-/&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='INLET PRESSURE' /
-/&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
-/&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='H',STATISTICS='VOLUME MEAN',ID='H IN' /
-/&DEVC XB=39.9,39.9,0.0,2.0,0.0,2.0,QUANTITY='H',STATISTICS='VOLUME MEAN',ID='H OUT' /
-/&DEVC XB=40.0,40.0,0.0,2.0,0.0,2.0,QUANTITY='VOLUME FLOW',ID='QDOT' /
+&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='INLET PRESSURE' /
+&DEVC XB=42.9,42.9,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
 
 
-point monitors
 
-&DEVC XYZ=30.0,1.0,1.0,QUANTITY='U-VELOCITY',ID='Uinst' /
+point monitors part a, velocity and volume flow rate to observe steady state
+
+need to show the velocity over time at a point
+will choose a point that is somewhat far from my expected
+seperation area and will measure all components of velocity 
+even though the U component would most likely be sufficient
+
+&DEVC XYZ=40,1,2, QUANTITY='U-VELOCITY',ID='Uinst' /
+&DEVC XYZ=40,1,2, QUANTITY='V-VELOCITY',ID='Vinst' /
+&DEVC XYZ=40,1,2, QUANTITY='W-VELOCITY',ID='Winst' /
+
+&DEVC XB=40.0,40.0,0.0,2.0,0.0,4.0, QUANTITY='VOLUME FLOW',ID='QDOT' /
+
+monitors part b, mean (time averaged) x velocity contour
+
+monitors part c, pressure loss through the geometry, k factor based on 
+velocity step (ignore friction loss at wall - make it part of the k factor)
 
 
 &TAIL /
