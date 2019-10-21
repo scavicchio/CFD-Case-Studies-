@@ -57,12 +57,12 @@ Physical geometry, obstructions, etc.
 note that the MESH is surrounded by walls of the defaul SURF type unless the mesh is touching another mesh, or a vent is specified
 
 &SURF ID='INVENT',VEL=-0.225,COLOR='BLUE' /
-&VENT XB=0.0,0.0,0.0,1.0,0.0,4.0,SURF_ID='INVENT' /
+&VENT XB=0.0,0.0,0.0,1.0,0.0,8,SURF_ID='INVENT' /
 
 by FDS convention a negative VEL is equivalent to flow into the domain
 
 &SURF ID='OPEN',COLOR='RED' /
-&VENT XB=43.0,43.0,0.0,2.0,0.0,4.0,SURF_ID='OPEN' /
+&VENT XB=43.0,43.0,0.0,2.0,0.0,8,SURF_ID='OPEN' /
 
 the OPEN boundary is equivalent to zero static pressure
 
@@ -74,8 +74,9 @@ refer FDS User Guide Chapter 17
 
 slices
 
-&SLCF QUANTITY='VELOCITY',PBY=1.0,VECTOR=.TRUE. /
-&SLCF QUANTITY='PRESSURE',PBY=1.0 /
+&SLCF QUANTITY='VELOCITY-y',PBY=1.0,VECTOR=.TRUE. /
+
+&SLCF QUANTITY='PRESSURE-y',PBY=1.0 /
 
 boundary quantities
 
@@ -84,8 +85,8 @@ boundary quantities
 
 integrated quantities over a surface
 
-&DEVC XB=0.1,0.1,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='INLET PRESSURE' /
-&DEVC XB=42.9,42.9,0.0,2.0,0.0,2.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
+&DEVC XB=0.1,0.1,0.0,1.0,0.0,8.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='INLET PRESSURE' /
+&DEVC XB=42.9,42.9,0.0,2.0,0.0,8.0,QUANTITY='PRESSURE',STATISTICS='VOLUME MEAN',ID='EXIT PRESSURE' /
 
 
 
@@ -96,11 +97,11 @@ will choose a point that is somewhat far from my expected
 seperation area and will measure all components of velocity 
 even though the U component would most likely be sufficient
 
-&DEVC XYZ=40,1,2, QUANTITY='U-VELOCITY',ID='Uinst' /
-&DEVC XYZ=40,1,2, QUANTITY='V-VELOCITY',ID='Vinst' /
-&DEVC XYZ=40,1,2, QUANTITY='W-VELOCITY',ID='Winst' /
+&DEVC XYZ=40,1,4, QUANTITY='U-VELOCITY',ID='Uinst' /
+&DEVC XYZ=40,1,4, QUANTITY='V-VELOCITY',ID='Vinst' /
+&DEVC XYZ=40,1,4, QUANTITY='W-VELOCITY',ID='Winst' /
 
-&DEVC XB=40.0,40.0,0.0,2.0,0.0,4.0, QUANTITY='VOLUME FLOW',ID='QDOT' /
+&DEVC XB=40.0,40.0,0.0,2.0,0.0,8.0, QUANTITY='VOLUME FLOW',ID='QDOT' /
 
 monitors part b, mean (time averaged) x velocity contour
 
