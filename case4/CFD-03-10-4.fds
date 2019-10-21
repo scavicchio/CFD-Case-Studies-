@@ -74,9 +74,9 @@ refer FDS User Guide Chapter 17
 
 slices
 
-&SLCF QUANTITY='VELOCITY-y',PBY=1.0,VECTOR=.TRUE. /
+&SLCF QUANTITY='VELOCITY',PBY=1.0,VECTOR=.TRUE. /
 
-&SLCF QUANTITY='PRESSURE-y',PBY=1.0 /
+&SLCF QUANTITY='PRESSURE',PBY=1.0 /
 
 boundary quantities
 
