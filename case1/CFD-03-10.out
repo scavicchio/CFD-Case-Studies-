@@ -1,7 +1,7 @@
 
  Fire Dynamics Simulator
 
- Current Date     : October 20, 2019  21:34:26
+ Current Date     : October 22, 2019  17:35:36
  Revision         : FDS6.7.1-0-g14cc738-HEAD
  Revision Date    : Mon Feb 4 12:26:25 2019 -0500
  Compiler         : Intel ifort 19.0.1.144
@@ -54,7 +54,7 @@ Total Number of Grid Cells        280000
  Miscellaneous Parameters
 
    Simulation Start Time (s)          0.0
-   Simulation End Time (s)          240.0
+   Simulation End Time (s)          956.0
    LES Calculation
    Eddy Viscosity:           Smagorinsky (C_SMAGORINSKY = 0.20)
    Near-wall Eddy Viscosity: Smagorinsky with Van Driest damping (C_SMAGORINSKY = 0.20)
@@ -220,7 +220,7 @@ Total Number of Grid Cells        280000
 
  Slice File Information, Mesh     1
 
-   Sampling Interval (s)             0.240
+   Sampling Interval (s)             0.956
 
    1 Nodes:   0 160  10  10   0  40, Quantity: VELOCITY
    2 Nodes:   0 160  10  10   0  40, Quantity: U-VELOCITY
@@ -231,7 +231,7 @@ Total Number of Grid Cells        280000
 
  Boundary File Information
 
-   Sampling Interval (s)             0.480
+   Sampling Interval (s)             1.912
 
    1 Quantity: FRICTION VELOCITY
 
@@ -246,7 +246,7 @@ Total Number of Grid Cells        280000
 
  Run Time Diagnostics
 
-       Time Step       1   October 20, 2019  21:34:33
+       Time Step       1   October 22, 2019  17:35:43
        Step Size:    0.791E-01 s, Total Time:       0.08 s
        Pressure Iterations:      1
        Maximum Velocity Error:  0.35E-17 on Mesh   1 at ( 161  10   5)
@@ -263,61 +263,61 @@ Total Number of Grid Cells        280000
        Min divergence: -0.23E-12 at (  40,   1,  24)
        Max VN number:   0.24E-01 at (  77,  11,  25)
  
-       Time Step       2   October 20, 2019  21:34:34
+       Time Step       2   October 22, 2019  17:35:43
        Step Size:    0.791E-01 s, Total Time:       0.16 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161  10  35)
+       Maximum Velocity Error:  0.69E-17 on Mesh   1 at ( 161  10   5)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.42E-01 at ( 160,  10,  18)
-       Max divergence:  0.11E-11 at (  59,   7,  25)
+       Max divergence:  0.99E-12 at (  59,   7,  25)
        Min divergence: -0.75E-12 at (  20,   2,  33)
        Max VN number:   0.24E-01 at ( 153,   5,  35)
        Mesh    2
        Max CFL number:  0.44E-01 at (   1,  10,  28)
-       Max divergence:  0.56E-12 at (  23,  17,  13)
-       Min divergence: -0.40E-12 at (   2,   9,  38)
+       Max divergence:  0.57E-12 at (  23,  17,  13)
+       Min divergence: -0.40E-12 at (   6,   5,  38)
        Max VN number:   0.24E-01 at (  77,  11,  25)
  
-       Time Step       3   October 20, 2019  21:34:35
+       Time Step       3   October 22, 2019  17:35:44
        Step Size:    0.791E-01 s, Total Time:       0.24 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161   1  10)
+       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161  10   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.63E-01 at ( 160,  10,  17)
-       Max divergence:  0.17E-11 at (  59,   7,  25)
+       Max divergence:  0.15E-11 at (  59,   7,  25)
        Min divergence: -0.11E-11 at (  20,   2,  33)
        Max VN number:   0.24E-01 at ( 153,   5,  35)
        Mesh    2
        Max CFL number:  0.63E-01 at (   1,  10,  17)
-       Max divergence:  0.82E-12 at (  23,  17,  13)
-       Min divergence: -0.60E-12 at (   2,   9,  38)
+       Max divergence:  0.85E-12 at (  23,  17,  13)
+       Min divergence: -0.62E-12 at (   2,   9,  38)
        Max VN number:   0.27E-01 at (   1,  10,  37)
  
-       Time Step       4   October 20, 2019  21:34:35
+       Time Step       4   October 22, 2019  17:35:45
        Step Size:    0.791E-01 s, Total Time:       0.32 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161  10   1)
+       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161   2  14)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.83E-01 at ( 160,  10,  17)
-       Max divergence:  0.20E-11 at (  59,   7,  25)
+       Max divergence:  0.19E-11 at (  59,   7,  25)
        Min divergence: -0.14E-11 at (  20,   2,  33)
        Max VN number:   0.24E-01 at ( 153,   5,  35)
        Mesh    2
        Max CFL number:  0.83E-01 at (   1,  10,  17)
        Max divergence:  0.11E-11 at (  23,  17,  13)
-       Min divergence: -0.85E-12 at (   2,   9,  38)
+       Min divergence: -0.84E-12 at (   2,   9,  38)
        Max VN number:   0.35E-01 at (   1,  10,  37)
  
-       Time Step       5   October 20, 2019  21:34:36
+       Time Step       5   October 22, 2019  17:35:45
        Step Size:    0.791E-01 s, Total Time:       0.40 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161  10   4)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161  10   9)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -327,36 +327,36 @@ Total Number of Grid Cells        280000
        Max VN number:   0.23E-01 at ( 153,   5,  35)
        Mesh    2
        Max CFL number:  0.10E+00 at (   1,  10,  17)
-       Max divergence:  0.13E-11 at (  23,  17,  13)
+       Max divergence:  0.14E-11 at (  23,  17,  13)
        Min divergence: -0.10E-11 at (   2,   9,  38)
        Max VN number:   0.43E-01 at (   1,  10,  37)
  
-       Time Step       6   October 20, 2019  21:34:37
+       Time Step       6   October 22, 2019  17:35:47
        Step Size:    0.791E-01 s, Total Time:       0.47 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161   9   1)
+       Maximum Velocity Error:  0.14E-16 on Mesh   1 at ( 161   9   4)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.12E+00 at ( 160,  10,  17)
-       Max divergence:  0.28E-11 at (  59,   7,  25)
+       Max divergence:  0.27E-11 at (  59,   7,  25)
        Min divergence: -0.20E-11 at (  20,   2,  33)
        Max VN number:   0.23E-01 at ( 153,   5,  35)
        Mesh    2
        Max CFL number:  0.12E+00 at (   1,  10,  17)
        Max divergence:  0.16E-11 at (  23,  17,  13)
-       Min divergence: -0.12E-11 at (   3,   8,  37)
+       Min divergence: -0.12E-11 at (   2,   9,  38)
        Max VN number:   0.49E-01 at (   1,  10,  37)
  
-       Time Step       7   October 20, 2019  21:34:38
+       Time Step       7   October 22, 2019  17:35:47
        Step Size:    0.791E-01 s, Total Time:       0.55 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   9  39)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   9   8)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.14E+00 at ( 160,  10,  17)
-       Max divergence:  0.30E-11 at (  59,   7,  25)
+       Max divergence:  0.29E-11 at (  59,   7,  25)
        Min divergence: -0.22E-11 at (  20,   2,  33)
        Max VN number:   0.23E-01 at ( 160,  10,   1)
        Mesh    2
@@ -365,33 +365,33 @@ Total Number of Grid Cells        280000
        Min divergence: -0.14E-11 at (   3,   8,  37)
        Max VN number:   0.55E-01 at (   1,  10,  37)
  
-       Time Step       8   October 20, 2019  21:34:39
+       Time Step       8   October 22, 2019  17:35:48
        Step Size:    0.791E-01 s, Total Time:       0.63 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2  24)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   8)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.15E+00 at ( 160,  10,   7)
        Max divergence:  0.32E-11 at (  59,   7,  25)
-       Min divergence: -0.24E-11 at (  20,   2,  33)
+       Min divergence: -0.25E-11 at (  20,   2,  33)
        Max VN number:   0.29E-01 at ( 160,  10,   1)
        Mesh    2
        Max CFL number:  0.15E+00 at (   1,  10,   7)
        Max divergence:  0.20E-11 at (  23,  17,  13)
-       Min divergence: -0.17E-11 at (   3,   8,  37)
+       Min divergence: -0.16E-11 at (   3,   8,  37)
        Max VN number:   0.60E-01 at (   1,  10,  37)
  
-       Time Step       9   October 20, 2019  21:34:40
+       Time Step       9   October 22, 2019  17:35:50
        Step Size:    0.791E-01 s, Total Time:       0.71 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161  10   6)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   7   7)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.17E+00 at ( 160,  10,   7)
-       Max divergence:  0.34E-11 at (  59,   7,  25)
-       Min divergence: -0.26E-11 at (  20,   2,  33)
+       Max divergence:  0.33E-11 at (  59,   7,  25)
+       Min divergence: -0.27E-11 at (  20,   2,  33)
        Max VN number:   0.35E-01 at ( 160,  10,   1)
        Mesh    2
        Max CFL number:  0.17E+00 at (   1,  10,   7)
@@ -399,15 +399,15 @@ Total Number of Grid Cells        280000
        Min divergence: -0.18E-11 at (   3,   8,  37)
        Max VN number:   0.63E-01 at (   1,  10,  37)
  
-       Time Step      10   October 20, 2019  21:34:41
+       Time Step      10   October 22, 2019  17:35:51
        Step Size:    0.791E-01 s, Total Time:       0.79 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   1)
+       Maximum Velocity Error:  0.56E-16 on Mesh   1 at ( 161  10  24)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.18E+00 at ( 160,  10,   7)
-       Max divergence:  0.36E-11 at (  59,   7,  25)
+       Max divergence:  0.35E-11 at (  59,   7,  25)
        Min divergence: -0.29E-11 at (  20,   2,  33)
        Max VN number:   0.40E-01 at ( 160,  10,   1)
        Mesh    2
@@ -416,27 +416,27 @@ Total Number of Grid Cells        280000
        Min divergence: -0.19E-11 at (   3,   8,  37)
        Max VN number:   0.66E-01 at (   1,  10,  37)
  
-       Time Step      20   October 20, 2019  21:34:51
+       Time Step      20   October 22, 2019  17:36:00
        Step Size:    0.791E-01 s, Total Time:       1.58 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.56E-16 on Mesh   1 at ( 161   8  28)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   9   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.25E+00 at ( 160,  10,   7)
        Max divergence:  0.47E-11 at (  59,   7,  25)
-       Min divergence: -0.40E-11 at (  20,   2,  33)
+       Min divergence: -0.39E-11 at (  20,   2,  33)
        Max VN number:   0.69E-01 at ( 160,  10,  40)
        Mesh    2
        Max CFL number:  0.25E+00 at (   1,  10,   7)
-       Max divergence:  0.32E-11 at (  23,  17,  13)
+       Max divergence:  0.33E-11 at (  23,  17,  13)
        Min divergence: -0.24E-11 at (   3,   8,  37)
        Max VN number:   0.68E-01 at (   2,  10,  40)
  
-       Time Step      30   October 20, 2019  21:35:01
+       Time Step      30   October 22, 2019  17:36:09
        Step Size:    0.791E-01 s, Total Time:       2.37 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -446,48 +446,48 @@ Total Number of Grid Cells        280000
        Max VN number:   0.69E-01 at ( 160,  10,   1)
        Mesh    2
        Max CFL number:  0.25E+00 at (   2,  10,  16)
-       Max divergence:  0.34E-11 at (  23,  17,  13)
+       Max divergence:  0.35E-11 at (  23,  17,  13)
        Min divergence: -0.25E-11 at (   3,   8,  37)
        Max VN number:   0.69E-01 at (   2,  10,  40)
  
-       Time Step      40   October 20, 2019  21:35:10
+       Time Step      40   October 22, 2019  17:36:18
        Step Size:    0.791E-01 s, Total Time:       3.16 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   1)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.24E+00 at ( 160,  10,   6)
-       Max divergence:  0.51E-11 at (  59,   7,  25)
-       Min divergence: -0.43E-11 at (  20,   2,  33)
-       Max VN number:   0.68E-01 at ( 160,  10,   1)
-       Mesh    2
-       Max CFL number:  0.25E+00 at (   1,  10,  26)
-       Max divergence:  0.35E-11 at (  23,  17,  13)
-       Min divergence: -0.27E-11 at (   3,   8,  37)
-       Max VN number:   0.73E-01 at (   2,   9,   4)
- 
-       Time Step      50   October 20, 2019  21:35:19
-       Step Size:    0.791E-01 s, Total Time:       3.95 s
        Pressure Iterations:      1
        Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   7   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
-       Max CFL number:  0.22E+00 at ( 160,  10,  12)
+       Max CFL number:  0.24E+00 at ( 160,  10,   6)
        Max divergence:  0.51E-11 at (  38,   7,   8)
+       Min divergence: -0.43E-11 at (  20,   2,  33)
+       Max VN number:   0.68E-01 at ( 160,  10,   1)
+       Mesh    2
+       Max CFL number:  0.25E+00 at (   1,  10,  26)
+       Max divergence:  0.35E-11 at (  23,  17,  13)
+       Min divergence: -0.26E-11 at (   3,   8,  37)
+       Max VN number:   0.73E-01 at (   2,   9,   4)
+ 
+       Time Step      50   October 22, 2019  17:36:27
+       Step Size:    0.791E-01 s, Total Time:       3.95 s
+       Pressure Iterations:      1
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
+       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
+       ---------------------------------------------------------------
+       Mesh    1
+       Max CFL number:  0.22E+00 at ( 160,  10,  12)
+       Max divergence:  0.52E-11 at (  38,   7,   8)
        Min divergence: -0.43E-11 at (  20,   2,  33)
        Max VN number:   0.64E-01 at ( 160,  10,  40)
        Mesh    2
-       Max CFL number:  0.25E+00 at (   3,  10,  26)
+       Max CFL number:  0.25E+00 at (   2,  10,  26)
        Max divergence:  0.35E-11 at (  23,  17,  13)
-       Min divergence: -0.26E-11 at (   3,   8,  37)
+       Min divergence: -0.26E-11 at (   2,   9,  38)
        Max VN number:   0.70E-01 at (   3,  10,  40)
  
-       Time Step      60   October 20, 2019  21:35:28
+       Time Step      60   October 22, 2019  17:36:35
        Step Size:    0.791E-01 s, Total Time:       4.74 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   1)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -497,31 +497,31 @@ Total Number of Grid Cells        280000
        Max VN number:   0.60E-01 at ( 160,  10,   1)
        Mesh    2
        Max CFL number:  0.26E+00 at (   2,  10,  29)
-       Max divergence:  0.35E-11 at (  23,  17,  13)
+       Max divergence:  0.36E-11 at (  23,  17,  13)
        Min divergence: -0.27E-11 at (   2,   9,  38)
        Max VN number:   0.69E-01 at (   4,  10,   1)
  
-       Time Step      70   October 20, 2019  21:35:36
+       Time Step      70   October 22, 2019  17:36:44
        Step Size:    0.791E-01 s, Total Time:       5.53 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2   1)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.20E+00 at ( 160,   9,  12)
-       Max divergence:  0.52E-11 at (  59,   7,  25)
+       Max divergence:  0.52E-11 at (  38,   7,   8)
        Min divergence: -0.44E-11 at (  20,   2,  33)
        Max VN number:   0.57E-01 at ( 160,  10,   1)
        Mesh    2
-       Max CFL number:  0.24E+00 at (   2,  10,  13)
+       Max CFL number:  0.24E+00 at (   3,  10,  13)
        Max divergence:  0.36E-11 at (  23,  17,  13)
        Min divergence: -0.27E-11 at (   2,   9,  38)
        Max VN number:   0.69E-01 at (   4,  10,  40)
  
-       Time Step      80   October 20, 2019  21:35:45
+       Time Step      80   October 22, 2019  17:36:53
        Step Size:    0.791E-01 s, Total Time:       6.32 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   1)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -535,10 +535,10 @@ Total Number of Grid Cells        280000
        Min divergence: -0.27E-11 at (   2,   9,  38)
        Max VN number:   0.71E-01 at (   4,   9,  25)
  
-       Time Step      90   October 20, 2019  21:35:54
+       Time Step      90   October 22, 2019  17:37:02
        Step Size:    0.791E-01 s, Total Time:       7.12 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   1)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -548,48 +548,48 @@ Total Number of Grid Cells        280000
        Max VN number:   0.52E-01 at (   2,   1,   1)
        Mesh    2
        Max CFL number:  0.24E+00 at (   5,  10,  31)
-       Max divergence:  0.36E-11 at (  23,  17,  13)
+       Max divergence:  0.37E-11 at (  23,  17,  13)
        Min divergence: -0.28E-11 at (   2,   9,  38)
        Max VN number:   0.70E-01 at (   2,  11,   4)
  
-       Time Step     100   October 20, 2019  21:36:03
+       Time Step     100   October 22, 2019  17:37:11
        Step Size:    0.791E-01 s, Total Time:       7.91 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2   1)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.20E+00 at ( 160,   8,   3)
-       Max divergence:  0.52E-11 at (  38,   7,   8)
-       Min divergence: -0.45E-11 at (  20,   2,  33)
-       Max VN number:   0.52E-01 at (   2,  10,   1)
-       Mesh    2
-       Max CFL number:  0.24E+00 at (   4,  10,  28)
-       Max divergence:  0.36E-11 at (  23,  17,  13)
-       Min divergence: -0.29E-11 at (   2,   9,  38)
-       Max VN number:   0.72E-01 at (   2,  11,   4)
- 
-       Time Step     200   October 20, 2019  21:37:33
-       Step Size:    0.791E-01 s, Total Time:      15.81 s
        Pressure Iterations:      1
        Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
-       Max CFL number:  0.19E+00 at ( 158,   6,  22)
-       Max divergence:  0.54E-11 at (  38,   7,   8)
+       Max CFL number:  0.20E+00 at ( 160,   8,   3)
+       Max divergence:  0.53E-11 at (  38,   7,   8)
+       Min divergence: -0.45E-11 at (  20,   2,  33)
+       Max VN number:   0.52E-01 at (   2,  10,   1)
+       Mesh    2
+       Max CFL number:  0.24E+00 at (   4,  10,  28)
+       Max divergence:  0.37E-11 at (  23,  17,  13)
+       Min divergence: -0.29E-11 at (   2,   9,  38)
+       Max VN number:   0.72E-01 at (   2,  11,   4)
+ 
+       Time Step     200   October 22, 2019  17:38:38
+       Step Size:    0.791E-01 s, Total Time:      15.81 s
+       Pressure Iterations:      1
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   1)
+       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
+       ---------------------------------------------------------------
+       Mesh    1
+       Max CFL number:  0.19E+00 at ( 157,   6,  22)
+       Max divergence:  0.55E-11 at (  38,   7,   8)
        Min divergence: -0.46E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,   1,   1)
        Mesh    2
        Max CFL number:  0.21E+00 at (   5,   9,  36)
-       Max divergence:  0.36E-11 at (  23,  17,  13)
+       Max divergence:  0.37E-11 at (  23,  17,  13)
        Min divergence: -0.31E-11 at (   2,   9,  38)
        Max VN number:   0.49E-01 at (  11,  10,  40)
  
-       Time Step     300   October 20, 2019  21:38:58
+       Time Step     300   October 22, 2019  17:40:04
        Step Size:    0.791E-01 s, Total Time:      23.72 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   7   3)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   1)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -600,18 +600,18 @@ Total Number of Grid Cells        280000
        Mesh    2
        Max CFL number:  0.21E+00 at (   9,   8,  19)
        Max divergence:  0.35E-11 at (   6,   5,  20)
-       Min divergence: -0.31E-11 at (   3,   8,  37)
+       Min divergence: -0.31E-11 at (   2,   9,  38)
        Max VN number:   0.44E-01 at (  10,   9,  40)
  
-       Time Step     400   October 20, 2019  21:40:16
+       Time Step     400   October 22, 2019  17:41:30
        Step Size:    0.791E-01 s, Total Time:      31.62 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   1)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.20E+00 at ( 104,   7,  14)
-       Max divergence:  0.57E-11 at (  38,   7,   8)
+       Max divergence:  0.58E-11 at (  38,   7,   8)
        Min divergence: -0.49E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,   1)
        Mesh    2
@@ -620,10 +620,10 @@ Total Number of Grid Cells        280000
        Min divergence: -0.33E-11 at (   2,   9,  38)
        Max VN number:   0.48E-01 at (  12,  20,   1)
  
-       Time Step     500   October 20, 2019  21:41:33
+       Time Step     500   October 22, 2019  17:42:58
        Step Size:    0.791E-01 s, Total Time:      39.53 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   3)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   9   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -633,48 +633,48 @@ Total Number of Grid Cells        280000
        Max VN number:   0.52E-01 at (   2,  10,  40)
        Mesh    2
        Max CFL number:  0.22E+00 at (  13,   8,  12)
-       Max divergence:  0.39E-11 at (   6,   5,  20)
+       Max divergence:  0.38E-11 at (   6,   5,  20)
        Min divergence: -0.34E-11 at (   2,   9,  38)
        Max VN number:   0.52E-01 at (  13,  20,  40)
  
-       Time Step     600   October 20, 2019  21:42:50
+       Time Step     600   October 22, 2019  17:44:26
        Step Size:    0.791E-01 s, Total Time:      47.43 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.20E+00 at ( 159,   5,  36)
        Max divergence:  0.61E-11 at (  38,   7,   8)
-       Min divergence: -0.52E-11 at (  20,   2,  33)
+       Min divergence: -0.51E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,  40)
        Mesh    2
        Max CFL number:  0.22E+00 at (  12,   7,  17)
        Max divergence:  0.40E-11 at (   6,   5,  20)
-       Min divergence: -0.35E-11 at (   2,   9,  38)
+       Min divergence: -0.36E-11 at (   2,   9,  38)
        Max VN number:   0.63E-01 at (  25,  14,  39)
  
-       Time Step     700   October 20, 2019  21:44:07
+       Time Step     700   October 22, 2019  17:45:53
        Step Size:    0.791E-01 s, Total Time:      55.34 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   6)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.20E+00 at ( 160,   5,   6)
        Max divergence:  0.62E-11 at (  38,   7,   8)
-       Min divergence: -0.53E-11 at (  20,   2,  33)
+       Min divergence: -0.52E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,   1)
        Mesh    2
        Max CFL number:  0.23E+00 at (  14,   7,  21)
        Max divergence:  0.42E-11 at (   6,   5,  20)
-       Min divergence: -0.36E-11 at (   2,   9,  38)
+       Min divergence: -0.37E-11 at (   2,   9,  38)
        Max VN number:   0.10E+00 at (  14,  15,  39)
  
-       Time Step     800   October 20, 2019  21:45:23
+       Time Step     800   October 22, 2019  17:47:22
        Step Size:    0.791E-01 s, Total Time:      63.25 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -685,13 +685,13 @@ Total Number of Grid Cells        280000
        Mesh    2
        Max CFL number:  0.23E+00 at (  19,   6,  22)
        Max divergence:  0.44E-11 at (   6,   5,  20)
-       Min divergence: -0.38E-11 at (   3,   8,  37)
+       Min divergence: -0.37E-11 at (   2,   9,  38)
        Max VN number:   0.76E-01 at (  31,  12,   2)
  
-       Time Step     900   October 20, 2019  21:46:40
+       Time Step     900   October 22, 2019  17:48:50
        Step Size:    0.791E-01 s, Total Time:      71.15 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -705,10 +705,10 @@ Total Number of Grid Cells        280000
        Min divergence: -0.38E-11 at (   3,   8,  37)
        Max VN number:   0.72E-01 at (  35,  12,   3)
  
-       Time Step    1000   October 20, 2019  21:47:57
+       Time Step    1000   October 22, 2019  17:50:19
        Step Size:    0.791E-01 s, Total Time:      79.06 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -719,18 +719,18 @@ Total Number of Grid Cells        280000
        Mesh    2
        Max CFL number:  0.23E+00 at (  34,   5,  20)
        Max divergence:  0.47E-11 at (   6,   5,  20)
-       Min divergence: -0.40E-11 at (   3,   8,  37)
+       Min divergence: -0.39E-11 at (   3,   8,  37)
        Max VN number:   0.68E-01 at (  27,   2,   2)
  
-       Time Step    1100   October 20, 2019  21:49:14
+       Time Step    1100   October 22, 2019  17:51:38
        Step Size:    0.791E-01 s, Total Time:      86.96 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   3)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   5,  35)
-       Max divergence:  0.68E-11 at (  38,   7,   8)
+       Max divergence:  0.69E-11 at (  38,   7,   8)
        Min divergence: -0.57E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,   1,   1)
        Mesh    2
@@ -739,16 +739,16 @@ Total Number of Grid Cells        280000
        Min divergence: -0.41E-11 at (   3,   8,  37)
        Max VN number:   0.11E+00 at (  25,  15,   5)
  
-       Time Step    1200   October 20, 2019  21:50:30
+       Time Step    1200   October 22, 2019  17:52:55
        Step Size:    0.791E-01 s, Total Time:      94.87 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   3)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   5,  15)
        Max divergence:  0.70E-11 at (  38,   7,   8)
-       Min divergence: -0.59E-11 at (  20,   2,  33)
+       Min divergence: -0.58E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,   1,  40)
        Mesh    2
        Max CFL number:  0.22E+00 at (  35,   8,  11)
@@ -756,27 +756,27 @@ Total Number of Grid Cells        280000
        Min divergence: -0.42E-11 at (   3,   8,  37)
        Max VN number:   0.85E-01 at (  29,   9,  27)
  
-       Time Step    1300   October 20, 2019  21:51:48
+       Time Step    1300   October 22, 2019  17:54:11
        Step Size:    0.791E-01 s, Total Time:     102.77 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   6,  19)
-       Max divergence:  0.71E-11 at (  38,   7,   8)
-       Min divergence: -0.60E-11 at (  20,   2,  33)
+       Max divergence:  0.72E-11 at (  38,   7,   8)
+       Min divergence: -0.59E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,   1)
        Mesh    2
-       Max CFL number:  0.23E+00 at (  39,   9,  15)
+       Max CFL number:  0.23E+00 at (  40,   9,  15)
        Max divergence:  0.53E-11 at (   6,   5,  20)
        Min divergence: -0.43E-11 at (   3,   8,  37)
        Max VN number:   0.81E-01 at (  42,   8,  18)
  
-       Time Step    1400   October 20, 2019  21:53:05
+       Time Step    1400   October 22, 2019  17:55:26
        Step Size:    0.791E-01 s, Total Time:     110.68 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   3)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   3)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -790,10 +790,10 @@ Total Number of Grid Cells        280000
        Min divergence: -0.44E-11 at (   3,   8,  37)
        Max VN number:   0.76E-01 at (  50,  10,   3)
  
-       Time Step    1500   October 20, 2019  21:54:20
+       Time Step    1500   October 22, 2019  17:56:42
        Step Size:    0.791E-01 s, Total Time:     118.59 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   3)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -807,10 +807,10 @@ Total Number of Grid Cells        280000
        Min divergence: -0.45E-11 at (   3,   8,  37)
        Max VN number:   0.73E-01 at (  33,  19,  19)
  
-       Time Step    1600   October 20, 2019  21:55:38
+       Time Step    1600   October 22, 2019  17:57:57
        Step Size:    0.791E-01 s, Total Time:     126.49 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   4)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   3)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -821,19 +821,19 @@ Total Number of Grid Cells        280000
        Mesh    2
        Max CFL number:  0.23E+00 at (  95,  18,  23)
        Max divergence:  0.59E-11 at (   6,   5,  20)
-       Min divergence: -0.47E-11 at (   3,   8,  37)
+       Min divergence: -0.46E-11 at (   3,   8,  37)
        Max VN number:   0.74E-01 at (  39,   9,   5)
  
-       Time Step    1700   October 20, 2019  21:56:54
+       Time Step    1700   October 22, 2019  17:59:13
        Step Size:    0.791E-01 s, Total Time:     134.40 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   7   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   6,  33)
        Max divergence:  0.78E-11 at (  38,   7,   8)
-       Min divergence: -0.65E-11 at (  20,   2,  33)
+       Min divergence: -0.64E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,   1,  40)
        Mesh    2
        Max CFL number:  0.21E+00 at (  14,   6,  23)
@@ -841,61 +841,61 @@ Total Number of Grid Cells        280000
        Min divergence: -0.48E-11 at (   3,   8,  37)
        Max VN number:   0.70E-01 at (  40,   7,  18)
  
-       Time Step    1800   October 20, 2019  21:58:12
+       Time Step    1800   October 22, 2019  18:00:28
        Step Size:    0.791E-01 s, Total Time:     142.30 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   4)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   6,  30)
        Max divergence:  0.79E-11 at (  38,   7,   8)
-       Min divergence: -0.66E-11 at (  20,   2,  33)
+       Min divergence: -0.65E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,   1)
        Mesh    2
        Max CFL number:  0.22E+00 at (  19,   5,  23)
-       Max divergence:  0.62E-11 at (   6,   5,  20)
+       Max divergence:  0.63E-11 at (   6,   5,  20)
        Min divergence: -0.49E-11 at (   3,   8,  37)
        Max VN number:   0.69E-01 at (  33,  10,   2)
  
-       Time Step    1900   October 20, 2019  21:59:28
+       Time Step    1900   October 22, 2019  18:01:44
        Step Size:    0.791E-01 s, Total Time:     150.21 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   3)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   6,  30)
        Max divergence:  0.81E-11 at (  38,   7,   8)
-       Min divergence: -0.67E-11 at (  20,   2,  33)
+       Min divergence: -0.66E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,  40)
        Mesh    2
        Max CFL number:  0.23E+00 at (  28,   4,  18)
        Max divergence:  0.64E-11 at (   6,   5,  20)
-       Min divergence: -0.51E-11 at (   3,   8,  37)
+       Min divergence: -0.50E-11 at (   3,   8,  37)
        Max VN number:   0.80E-01 at (  20,  11,  28)
  
-       Time Step    2000   October 20, 2019  22:00:45
+       Time Step    2000   October 22, 2019  18:03:00
        Step Size:    0.791E-01 s, Total Time:     158.11 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   3)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   6,  35)
-       Max divergence:  0.82E-11 at (  38,   7,   8)
+       Max divergence:  0.83E-11 at (  38,   7,   8)
        Min divergence: -0.68E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,  10,  40)
        Mesh    2
        Max CFL number:  0.23E+00 at (  39,   9,  32)
        Max divergence:  0.66E-11 at (   6,   5,  20)
-       Min divergence: -0.52E-11 at (   3,   8,  37)
+       Min divergence: -0.51E-11 at (   3,   8,  37)
        Max VN number:   0.82E-01 at (  42,  11,   2)
  
-       Time Step    2100   October 20, 2019  22:02:02
+       Time Step    2100   October 22, 2019  18:04:16
        Step Size:    0.791E-01 s, Total Time:     166.02 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   6   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
@@ -909,16 +909,16 @@ Total Number of Grid Cells        280000
        Min divergence: -0.53E-11 at (   3,   8,  37)
        Max VN number:   0.75E-01 at (  55,   7,  36)
  
-       Time Step    2200   October 20, 2019  22:03:19
+       Time Step    2200   October 22, 2019  18:05:32
        Step Size:    0.791E-01 s, Total Time:     173.93 s
        Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   7   2)
+       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   2   3)
        Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
        ---------------------------------------------------------------
        Mesh    1
        Max CFL number:  0.21E+00 at ( 160,   6,  23)
        Max divergence:  0.86E-11 at (  38,   7,   8)
-       Min divergence: -0.71E-11 at (  20,   2,  33)
+       Min divergence: -0.70E-11 at (  20,   2,  33)
        Max VN number:   0.52E-01 at (   2,   1,   1)
        Mesh    2
        Max CFL number:  0.23E+00 at (  72,  12,   9)
@@ -926,162 +926,3 @@ Total Number of Grid Cells        280000
        Min divergence: -0.54E-11 at (   3,   8,  37)
        Max VN number:   0.88E-01 at (  36,   9,  39)
  
-       Time Step    2300   October 20, 2019  22:04:35
-       Step Size:    0.791E-01 s, Total Time:     181.83 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 158,   6,  20)
-       Max divergence:  0.87E-11 at (  38,   7,   8)
-       Min divergence: -0.72E-11 at (  20,   2,  33)
-       Max VN number:   0.52E-01 at (   2,   1,  40)
-       Mesh    2
-       Max CFL number:  0.23E+00 at (  89,  15,  10)
-       Max divergence:  0.72E-11 at (   6,   5,  20)
-       Min divergence: -0.55E-11 at (   3,   8,  37)
-       Max VN number:   0.68E-01 at (  76,  10,  10)
- 
-       Time Step    2400   October 20, 2019  22:05:52
-       Step Size:    0.791E-01 s, Total Time:     189.74 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 159,   6,  21)
-       Max divergence:  0.89E-11 at (  38,   7,   8)
-       Min divergence: -0.73E-11 at (  20,   2,  33)
-       Max VN number:   0.52E-01 at (   2,  10,  40)
-       Mesh    2
-       Max CFL number:  0.22E+00 at (  37,   6,  22)
-       Max divergence:  0.73E-11 at (   6,   5,  20)
-       Min divergence: -0.57E-11 at (   3,   8,  37)
-       Max VN number:   0.77E-01 at (  39,  13,  39)
- 
-       Time Step    2500   October 20, 2019  22:07:08
-       Step Size:    0.791E-01 s, Total Time:     197.64 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 158,   6,  16)
-       Max divergence:  0.90E-11 at (  38,   7,   8)
-       Min divergence: -0.74E-11 at (  20,   2,  33)
-       Max VN number:   0.52E-01 at (   2,  10,  40)
-       Mesh    2
-       Max CFL number:  0.21E+00 at (  24,   7,  24)
-       Max divergence:  0.75E-11 at (   6,   5,  20)
-       Min divergence: -0.58E-11 at (   3,   8,  37)
-       Max VN number:   0.78E-01 at (  41,  13,  38)
- 
-       Time Step    2600   October 20, 2019  22:08:24
-       Step Size:    0.791E-01 s, Total Time:     205.55 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   3)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 158,   6,  35)
-       Max divergence:  0.92E-11 at (  38,   7,   8)
-       Min divergence: -0.75E-11 at (  20,   2,  33)
-       Max VN number:   0.52E-01 at (   2,   1,   1)
-       Mesh    2
-       Max CFL number:  0.22E+00 at (  33,   7,  20)
-       Max divergence:  0.77E-11 at (   6,   5,  20)
-       Min divergence: -0.59E-11 at (   3,   8,  37)
-       Max VN number:   0.71E-01 at (  48,  15,   5)
- 
-       Time Step    2700   October 20, 2019  22:09:42
-       Step Size:    0.791E-01 s, Total Time:     213.45 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   3   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 160,   5,  34)
-       Max divergence:  0.93E-11 at (  38,   7,   8)
-       Min divergence: -0.77E-11 at ( 109,   6,  21)
-       Max VN number:   0.52E-01 at (   2,   1,  40)
-       Mesh    2
-       Max CFL number:  0.22E+00 at (  41,   7,  14)
-       Max divergence:  0.79E-11 at (   6,   5,  20)
-       Min divergence: -0.60E-11 at (   3,   8,  37)
-       Max VN number:   0.75E-01 at (  65,   5,   5)
- 
-       Time Step    2800   October 20, 2019  22:10:59
-       Step Size:    0.791E-01 s, Total Time:     221.36 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   4   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 160,   6,  12)
-       Max divergence:  0.95E-11 at (  38,   7,   8)
-       Min divergence: -0.78E-11 at ( 109,   6,  21)
-       Max VN number:   0.52E-01 at (   2,   1,   1)
-       Mesh    2
-       Max CFL number:  0.22E+00 at (  76,  14,   8)
-       Max divergence:  0.81E-11 at (   6,   5,  20)
-       Min divergence: -0.62E-11 at (   3,   8,  37)
-       Max VN number:   0.72E-01 at (  51,  12,   4)
- 
-       Time Step    2900   October 20, 2019  22:12:16
-       Step Size:    0.791E-01 s, Total Time:     229.27 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   8   9)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 160,   6,  35)
-       Max divergence:  0.97E-11 at (  38,   7,   8)
-       Min divergence: -0.80E-11 at ( 109,   6,  21)
-       Max VN number:   0.52E-01 at (   2,   1,   1)
-       Mesh    2
-       Max CFL number:  0.22E+00 at (  34,   7,  16)
-       Max divergence:  0.83E-11 at (   6,   5,  20)
-       Min divergence: -0.63E-11 at (   3,   8,  37)
-       Max VN number:   0.67E-01 at (  57,  11,   5)
- 
-       Time Step    3000   October 20, 2019  22:13:33
-       Step Size:    0.791E-01 s, Total Time:     237.17 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   7   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.21E+00 at ( 160,   6,  35)
-       Max divergence:  0.98E-11 at (  38,   7,   8)
-       Min divergence: -0.81E-11 at ( 109,   6,  21)
-       Max VN number:   0.52E-01 at (   2,  10,  40)
-       Mesh    2
-       Max CFL number:  0.22E+00 at (  43,   8,  17)
-       Max divergence:  0.85E-11 at (   6,   5,  20)
-       Min divergence: -0.64E-11 at (   3,   8,  37)
-       Max VN number:   0.63E-01 at (  67,   8,  39)
- 
-       Time Step    3036   October 20, 2019  22:14:01
-       Step Size:    0.622E-01 s, Total Time:     240.00 s
-       Pressure Iterations:      1
-       Maximum Velocity Error:  0.28E-16 on Mesh   1 at ( 161   5   2)
-       Maximum Pressure Error:  0.00E+00 on Mesh   1 at (   0   0   0)
-       ---------------------------------------------------------------
-       Mesh    1
-       Max CFL number:  0.16E+00 at ( 160,   6,  34)
-       Max divergence:  0.99E-11 at (  38,   7,   8)
-       Min divergence: -0.82E-11 at ( 109,   6,  21)
-       Max VN number:   0.41E-01 at (   2,  10,  40)
-       Mesh    2
-       Max CFL number:  0.17E+00 at (  45,   7,  17)
-       Max divergence:  0.86E-11 at (   6,   5,  20)
-       Min divergence: -0.64E-11 at (   3,   8,  37)
-       Max VN number:   0.60E-01 at (  61,   5,   4)
- 
-
-
- Time Stepping Wall Clock Time (s):     2368.708
- Total Elapsed Wall Clock Time (s):     2378.705
-
-STOP: FDS completed successfully (CHID: CFD-03-10)
