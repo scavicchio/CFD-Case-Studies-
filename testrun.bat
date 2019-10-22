@@ -12,4 +12,4 @@ REM avoid a crash!
 echo 
 
 call fdsinit.bat
-fds_local -p 2 -o 2 CFD-03-10.fds
+fds_local -p 2 -o 8 case1/CFD-03-10-1.fds
