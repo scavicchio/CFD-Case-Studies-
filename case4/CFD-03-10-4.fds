@@ -9,7 +9,7 @@ General parameters, solver settings, etc.
 
 set title and prefix on all output files (CHID)
 
-&TIME T_END=240 / 
+&TIME T_END=956 / 
 
 sets the end time of the simulation, default start time is 0
 
