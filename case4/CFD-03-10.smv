@@ -823,6 +823,31 @@ SLCF     1 # STRUCTURED &     0   110    10    10     0    80 !      2
  PRESSURE
  pres
  Pa
+SLCF     1 # STRUCTURED &     0   110     0    10    40    40 !      3
+ CFD-03-10_0001_06.sf
+ VELOCITY
+ vel
+ m/s
+SLCF     1 # STRUCTURED &     0   110     0    10    40    40 !      3
+ CFD-03-10_0001_07.sf
+ U-VELOCITY
+ U-VEL
+ m/s
+SLCF     1 # STRUCTURED &     0   110     0    10    40    40 !      3
+ CFD-03-10_0001_08.sf
+ V-VELOCITY
+ V-VEL
+ m/s
+SLCF     1 # STRUCTURED &     0   110     0    10    40    40 !      3
+ CFD-03-10_0001_09.sf
+ W-VELOCITY
+ W-VEL
+ m/s
+SLCF     1 # STRUCTURED &     0   110     0    10    40    40 !      4
+ CFD-03-10_0001_10.sf
+ PRESSURE
+ pres
+ Pa
 BNDF     1     1
  CFD-03-10_0001_01.bf
  FRICTION VELOCITY
@@ -867,6 +892,31 @@ SLCF     2 # STRUCTURED &     0   180    10    10     0    80 !      1
  m/s
 SLCF     2 # STRUCTURED &     0   180    10    10     0    80 !      2
  CFD-03-10_0002_05.sf
+ PRESSURE
+ pres
+ Pa
+SLCF     2 # STRUCTURED &     0   180     0    20    40    40 !      3
+ CFD-03-10_0002_06.sf
+ VELOCITY
+ vel
+ m/s
+SLCF     2 # STRUCTURED &     0   180     0    20    40    40 !      3
+ CFD-03-10_0002_07.sf
+ U-VELOCITY
+ U-VEL
+ m/s
+SLCF     2 # STRUCTURED &     0   180     0    20    40    40 !      3
+ CFD-03-10_0002_08.sf
+ V-VELOCITY
+ V-VEL
+ m/s
+SLCF     2 # STRUCTURED &     0   180     0    20    40    40 !      3
+ CFD-03-10_0002_09.sf
+ W-VELOCITY
+ W-VEL
+ m/s
+SLCF     2 # STRUCTURED &     0   180     0    20    40    40 !      4
+ CFD-03-10_0002_10.sf
  PRESSURE
  pres
  Pa

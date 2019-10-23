@@ -13,4 +13,4 @@ echo
 
 call fdsinit.bat
 cd case3
-fds_local -p 2 -o 8 CFD-03-10-3.fds
+fds_local -o 16 CFD-03-10-3.fds
