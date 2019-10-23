@@ -12,5 +12,5 @@ REM avoid a crash!
 echo 
 
 call fdsinit.bat
-cd case4
-fds_local -p 2 -o 8 CFD-03-10-4.fds
+cd case3
+fds_local -p 2 -o 8 CFD-03-10-3.fds
