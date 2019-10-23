@@ -74,6 +74,8 @@ slices
 
 &SLCF QUANTITY='VELOCITY',PBY=1.0,VECTOR=.TRUE. /
 &SLCF QUANTITY='PRESSURE',PBY=1.0 /
+&SLCF QUANTITY='VELOCITY',PBZ=2.0,VECTOR=.TRUE. /
+&SLCF QUANTITY='PRESSURE',PBZ=2.0 /
 
 boundary quantities
 
@@ -102,7 +104,8 @@ even though the U component would most likely be sufficient
 
 monitors part b, mean (time averaged) x velocity contour
 
-monitors part c, pressure loss through the geometry, k factor based on 
+monitors part c,
+ pressure loss through the geometry, k factor based on 
 velocity step (ignore friction loss at wall - make it part of the k factor)
 
 
