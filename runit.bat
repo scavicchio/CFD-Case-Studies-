@@ -8,11 +8,11 @@ REM will need to solve a total of 4 solutions
 REM this computer has 16 threads so I can put 4 for each
 
 echo 
-call fdsinit.bat
-start "Case 1" /d "case1" fds_local -p 2 -o 2 CFD-03-10-1.fds 
 
-start "Case 2" /d "case2" fds_local -p 2 -o 1 CFD-03-10-2.fds 
+start /wait case1
 
-start "Case 3" /d "case3" fds_local -p 2 -o 2 CFD-03-10-3.fds 
+start /wait case2
 
-start "Case 4" /d "case4" fds_local -p 2 -o 3 CFD-03-10-4.fds 
+start /wait case3
+
+start /wait case4
